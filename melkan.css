@@ -24,9 +24,12 @@
 
 /* Variables */
 :root {
+  /* Fonts */
   --primary-font-regular: dana-regular;
   --primary-font-bold: dana-bold;
+  /* Fonts */
 
+  /* Colors */
   --primary-color: #0074d9;
   --on-primary-color: #fff;
   --hover-primary-color: #0865d7;
@@ -41,5 +44,6 @@
   --error-color: #ff180c;
   --on-error-color: #fff;
   --hover-error-color: #f60c00;
+  /* Colors */
 }
 /* Variables */
