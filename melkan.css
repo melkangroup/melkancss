@@ -1,1 +1,19 @@
+/* Font Import */
+@font-face {
+  font-family: dana-regular;
+  src: url("Fonts/Dana-Regular/dana-regular.woff2") format("woff2"), url("Fonts/Dana-Regular/dana-regular.woff") format("woff");
+}
+/* Font Import */
 
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: dana;
+}
+/* Global Styles */
+
+/* Variables */
+/* Variables */
