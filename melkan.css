@@ -24,7 +24,22 @@
 
 /* Variables */
 :root {
-    --primary-font-regular: dana-regular;
-    --primary-font-bold: dana-bold;
+  --primary-font-regular: dana-regular;
+  --primary-font-bold: dana-bold;
+
+  --primary-color: #0074d9;
+  --on-primary-color: #fff;
+  --hover-primary-color: #0865d7;
+
+  --secondary-color: #b4d5fc;
+  --on-secondary-color: #000;
+  --hover-secondary-color: #8fc0fb;
+
+  --tertiary-color: #ddd;
+  --on-tertiary-color: #000;
+
+  --error-color: #ff180c;
+  --on-error-color: #fff;
+  --hover-error-color: #f60c00;
 }
 /* Variables */
