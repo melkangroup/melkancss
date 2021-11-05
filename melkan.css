@@ -58,9 +58,10 @@
   /* Spacing */
 
   /* Radius */
-  --small-radius: 0.5rem;
-  --medium-radius: 1rem;
-  --large-radius: 2rem;
+  --small-radius: 0.25rem;
+  --medium-radius: 0.5rem;
+  --large-radius: 1rem;
+  --pill: 10rem;
   /* Radius */
 }
 /* Variables */
