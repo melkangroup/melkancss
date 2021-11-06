@@ -48,20 +48,22 @@
   /* Colors */
 
   /* Spacing */
+  --extra-small-padding: 0.25rem;
   --small-padding: 0.5rem;
   --medium-padding: 1rem;
   --large-padding: 2rem;
 
+  --extra-small-margin: 0.25rem;
   --small-margin: 0.5rem;
   --medium-margin: 1rem;
   --large-margin: 2rem;
   /* Spacing */
 
   /* Radius */
-  --small-radius: 0.25rem;
-  --medium-radius: 0.5rem;
+  --extra-small-radius: 0.25rem;
+  --small-radius: 0.5rem;
+  --medium-radius: 0.75rem;
   --large-radius: 1rem;
-  --pill: 10rem;
   /* Radius */
 }
 /* Variables */
@@ -85,8 +87,10 @@
 .secondary-button {
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
+
   border-radius: var(--large-radius);
   border: none;
+
   padding-top: var(--small-padding);
   padding-bottom: var(--small-padding);
   padding-left: var(--medium-padding);
