@@ -72,8 +72,10 @@
 .primary-button {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
+
   border-radius: var(--large-radius);
   border: none;
+
   padding-top: var(--small-padding);
   padding-bottom: var(--small-padding);
   padding-left: var(--medium-padding);
@@ -98,6 +100,36 @@
 }
 
 .secondary-button:hover {
+  background-color: var(--hover-secondary-color);
+}
+
+.primary-icon-button {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+
+  border-radius: var(--medium-radius);
+  border: none;
+
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.primary-icon-button:hover {
+  background-color: var(--hover-primary-color);
+}
+
+.secondary-icon-button {
+  background-color: var(--secondary-color);
+  color: var(--on-secondary-color);
+
+  border-radius: var(--medium-radius);
+  border: none;
+
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.secondary-icon-button:hover {
   background-color: var(--hover-secondary-color);
 }
 /* Button */
