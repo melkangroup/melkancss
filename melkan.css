@@ -19,6 +19,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: var(--primary-font-regular);
+  direction: rtl;
 }
 /* Global Styles */
 
@@ -130,3 +131,24 @@
   background-color: var(--hover-secondary-color);
 }
 /* Button */
+
+/* Input */
+input[type="text"] {
+  border: 2px solid var(--tertiary-color);
+  border-radius: var(--radius-30);
+
+  padding-left: var(--space-25);
+  padding-right: var(--space-25);
+
+  height: 50px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid black;
+  outline: none;
+}
+
+::placeholder {
+  opacity: 1;
+}
+/* Input */
