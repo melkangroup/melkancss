@@ -48,20 +48,15 @@
   /* Colors */
 
   /* Spacing */
-  --small-padding: 0.5rem;
-  --medium-padding: 1rem;
-  --large-padding: 2rem;
-
-  --small-margin: 0.5rem;
-  --medium-margin: 1rem;
-  --large-margin: 2rem;
+  --space-10: 10px;
+  --space-25: 25px;
+  --space-50: 50px;
   /* Spacing */
 
   /* Radius */
-  --small-radius: 0.25rem;
-  --medium-radius: 0.5rem;
-  --large-radius: 1rem;
-  --pill: 10rem;
+  --radius-10: 10px;
+  --radius-15: 15px;
+  --radius-30: 30px;
   /* Radius */
 }
 /* Variables */
@@ -70,12 +65,14 @@
 .primary-button {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
-  border-radius: var(--large-radius);
+
+  border-radius: var(--radius-30);
   border: none;
-  padding-top: var(--small-padding);
-  padding-bottom: var(--small-padding);
-  padding-left: var(--medium-padding);
-  padding-right: var(--medium-padding);
+
+  padding-left: var(--space-25);
+  padding-right: var(--space-25);
+
+  height: 50px;
 }
 
 .primary-button:hover {
@@ -85,15 +82,51 @@
 .secondary-button {
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
-  border-radius: var(--large-radius);
+
+  border-radius: var(--radius-30);
   border: none;
-  padding-top: var(--small-padding);
-  padding-bottom: var(--small-padding);
-  padding-left: var(--medium-padding);
-  padding-right: var(--medium-padding);
+
+  padding-left: var(--space-25);
+  padding-right: var(--space-25);
+
+  height: 50px;
 }
 
 .secondary-button:hover {
+  background-color: var(--hover-secondary-color);
+}
+
+.primary-icon-button {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+
+  border-radius: var(--radius-15);
+  border: none;
+
+  padding: var(--space-10);
+
+  height: 50px;
+  width: 50px;
+}
+
+.primary-icon-button:hover {
+  background-color: var(--hover-primary-color);
+}
+
+.secondary-icon-button {
+  background-color: var(--secondary-color);
+  color: var(--on-secondary-color);
+
+  border-radius: var(--radius-15);
+  border: none;
+
+  padding: var(--space-10);
+
+  height: 50px;
+  width: 50px;
+}
+
+.secondary-icon-button:hover {
   background-color: var(--hover-secondary-color);
 }
 /* Button */
