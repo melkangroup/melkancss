@@ -108,6 +108,8 @@
 
   height: 50px;
   width: 50px;
+
+  line-height: 0;
 }
 
 .primary-icon-button:hover {
@@ -125,6 +127,8 @@
 
   height: 50px;
   width: 50px;
+
+  line-height: 0;
 }
 
 .secondary-icon-button:hover {
@@ -150,5 +154,15 @@ input[type="text"]:focus {
 
 ::placeholder {
   opacity: 1;
+  color: #000;
 }
 /* Input */
+
+/* Avatar */
+.avatar {
+  width: 50px !important;
+  height: 50px !important;
+
+  border-radius: var(--radius-15);
+}
+/* Avatar */
