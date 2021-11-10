@@ -34,15 +34,12 @@
   --primary-color: #0074d9;
   --on-primary-color: #fff;
   --hover-primary-color: #0865d7;
-
   --secondary-color: #b4d5fc;
   --on-secondary-color: #000;
   --hover-secondary-color: #8fc0fb;
-
   --tertiary-color: #ddd;
   --on-tertiary-color: #000;
   --background-tertiary-color: #eee;
-
   --error-color: #ff180c;
   --on-error-color: #fff;
   --hover-error-color: #f60c00;
@@ -66,13 +63,10 @@
 .primary-button {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
-
   border-radius: var(--radius-30);
   border: none;
-
   padding-left: var(--space-25);
   padding-right: var(--space-25);
-
   height: 50px;
 }
 
@@ -83,13 +77,10 @@
 .secondary-button {
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
-
   border-radius: var(--radius-30);
   border: none;
-
   padding-left: var(--space-25);
   padding-right: var(--space-25);
-
   height: 50px;
 }
 
@@ -100,15 +91,11 @@
 .primary-icon-button {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
-
   border-radius: var(--radius-15);
   border: none;
-
   padding: var(--space-10);
-
   height: 50px;
   width: 50px;
-
   line-height: 0;
 }
 
@@ -119,15 +106,11 @@
 .secondary-icon-button {
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
-
   border-radius: var(--radius-15);
   border: none;
-
   padding: var(--space-10);
-
   height: 50px;
   width: 50px;
-
   line-height: 0;
 }
 
@@ -139,11 +122,9 @@
 /* Input */
 input[type="text"] {
   border: 2px solid var(--tertiary-color);
-  border-radius: var(--radius-30);
-
+  border-radius: var(--radius-15);
   padding-left: var(--space-25);
   padding-right: var(--space-25);
-
   height: 50px;
 }
 
@@ -162,7 +143,10 @@ input[type="text"]:focus {
 .avatar {
   width: 50px !important;
   height: 50px !important;
-
   border-radius: var(--radius-15);
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Avatar */
