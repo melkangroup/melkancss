@@ -68,6 +68,7 @@
   padding-left: var(--space-25);
   padding-right: var(--space-25);
   height: 50px;
+  cursor: pointer;
 }
 
 .primary-button:hover {
@@ -82,6 +83,7 @@
   padding-left: var(--space-25);
   padding-right: var(--space-25);
   height: 50px;
+  cursor: pointer;
 }
 
 .secondary-button:hover {
@@ -97,6 +99,7 @@
   height: 50px;
   width: 50px;
   line-height: 0;
+  cursor: pointer;
 }
 
 .primary-icon-button:hover {
@@ -112,6 +115,7 @@
   height: 50px;
   width: 50px;
   line-height: 0;
+  cursor: pointer;
 }
 
 .secondary-icon-button:hover {
@@ -148,5 +152,9 @@ input[type="text"]:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.avatar:hover {
+  background-color: var(--hover-secondary-color);
 }
 /* Avatar */
