@@ -59,6 +59,20 @@
 }
 /* Variables */
 
+/* Radius Styles*/
+.radius-10 {
+  border-radius: var(--radius-10) !important;
+}
+
+.radius-15 {
+  border-radius: var(--radius-15) !important;
+}
+
+.radius-30 {
+  border-radius: var(--radius-30) !important;
+}
+/* Radius Styles*/
+
 /* Button */
 .primary-button {
   background-color: var(--primary-color);
