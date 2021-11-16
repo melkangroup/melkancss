@@ -49,6 +49,7 @@
   --pixel-5: 5px;
   --pixel-10: 10px;
   --pixel-15: 15px;
+  --pixel-20: 20px;
   --pixel-25: 25px;
   --pixel-30: 30px;
   --pixel-35: 35px;
@@ -507,8 +508,9 @@
   background-color: var(--primary-color);
   color: var(--on-primary-color);
   border: none;
-  padding-left: var(--pixel-15);
-  padding-right: var(--pixel-15);
+  padding: var(--pixel-10);
+  padding-left: var(--pixel-25);
+  padding-right: var(--pixel-25);
 }
 
 .primary-button:hover {
@@ -520,8 +522,9 @@
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
   border: none;
-  padding-left: var(--pixel-15);
-  padding-right: var(--pixel-15);
+  padding: var(--pixel-10);
+  padding-left: var(--pixel-25);
+  padding-right: var(--pixel-25);
 }
 
 .secondary-button:hover {
@@ -533,8 +536,9 @@
   background-color: var(--error-color);
   color: var(--on-error-color);
   border: none;
-  padding-left: var(--pixel-15);
-  padding-right: var(--pixel-15);
+  padding: var(--pixel-10);
+  padding-left: var(--pixel-25);
+  padding-right: var(--pixel-25);
 }
 
 .error-button:hover {
