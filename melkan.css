@@ -500,3 +500,35 @@
   margin-left: 50px;
 }
 /* Margin */
+
+/* Buttons */
+.primary-button {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+}
+
+.primary-button:hover {
+  background-color: var(--hover-primary-color);
+}
+
+.secondary-button {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--on-secondary-color);
+}
+
+.secondary-button:hover {
+  background-color: var(--hover-secondary-color);
+}
+
+.error-button {
+  cursor: pointer;
+  background-color: var(--error-color);
+  color: var(--on-error-color);
+}
+
+.error-button:hover {
+  background-color: var(--hover-error-color);
+}
+/* Buttons */
