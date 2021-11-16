@@ -45,127 +45,60 @@
   --hover-error-color: #f60c00;
   /* Colors */
 
-  /* Pixels */
+  /* Spacing */
   --pixel-5: 5px;
   --pixel-10: 10px;
   --pixel-15: 15px;
   --pixel-25: 25px;
   --pixel-30: 30px;
+  --pixel-35: 35px;
+  --pixel-40: 40px;
+  --pixel-45: 45px;
   --pixel-50: 50px;
-  /* Pixels */
+  /* Spacing */
 }
 /* Variables */
 
-/* Radius Styles*/
+/* Radius */
+.radius-5 {
+  border-radius: 5px !important;
+}
+
 .radius-10 {
-  border-radius: var(--pixel-10) !important;
+  border-radius: 10px !important;
 }
 
 .radius-15 {
-  border-radius: var(--pixel-15) !important;
+  border-radius: 15px !important;
+}
+
+.radius-20 {
+  border-radius: 20px !important;
+}
+
+.radius-25 {
+  border-radius: 25px !important;
 }
 
 .radius-30 {
-  border-radius: var(--pixel-30) !important;
-}
-/* Radius Styles*/
-
-/* Button */
-.primary-button {
-  background-color: var(--primary-color);
-  color: var(--on-primary-color);
-  border-radius: var(--pixel-30);
-  border: none;
-  padding-left: var(--pixel-25);
-  padding-right: var(--pixel-25);
-  height: 50px;
-  cursor: pointer;
+  border-radius: 30px !important;
 }
 
-.primary-button:hover {
-  background-color: var(--hover-primary-color);
+.radius-35 {
+  border-radius: 35px !important;
 }
 
-.secondary-button {
-  background-color: var(--secondary-color);
-  color: var(--on-secondary-color);
-  border-radius: var(--pixel-30);
-  border: none;
-  padding-left: var(--pixel-25);
-  padding-right: var(--pixel-25);
-  height: 50px;
-  cursor: pointer;
+.radius-40 {
+  border-radius: 40px !important;
 }
 
-.secondary-button:hover {
-  background-color: var(--hover-secondary-color);
+.radius-45 {
+  border-radius: 45px !important;
 }
 
-.primary-icon-button {
-  background-color: var(--primary-color);
-  color: var(--on-primary-color);
-  border-radius: var(--pixel-15);
-  border: none;
-  padding: var(--pixel-10);
-  height: 50px;
-  width: 50px;
-  line-height: 0;
-  cursor: pointer;
+.radius-50 {
+  border-radius: 50px !important;
 }
+/* Radius */
 
-.primary-icon-button:hover {
-  background-color: var(--hover-primary-color);
-}
-
-.secondary-icon-button {
-  background-color: var(--secondary-color);
-  color: var(--on-secondary-color);
-  border-radius: var(--pixel-15);
-  border: none;
-  padding: var(--pixel-10);
-  height: 50px !important;
-  width: 50px !important;
-  line-height: 0;
-  cursor: pointer;
-}
-
-.secondary-icon-button:hover {
-  background-color: var(--hover-secondary-color);
-}
-/* Button */
-
-/* Input */
-input[type="text"] {
-  border: 2px solid var(--tertiary-color);
-  border-radius: var(--pixel-15);
-  padding-left: var(--pixel-25);
-  padding-right: var(--pixel-25);
-  height: 50px;
-}
-
-input[type="text"]:focus {
-  border: 2px solid black;
-  outline: none;
-}
-
-::placeholder {
-  opacity: 1;
-  color: #000;
-}
-/* Input */
-
-/* Avatar */
-.avatar {
-  width: 50px !important;
-  height: 50px !important;
-  border-radius: var(--pixel-15);
-  background-color: var(--secondary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.avatar:hover {
-  background-color: var(--hover-secondary-color);
-}
-/* Avatar */
+/* Padding 
