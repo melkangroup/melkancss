@@ -1,0 +1,34 @@
+:root {
+  /* Fonts */
+  --primary-font-regular: dana-regular;
+  --primary-font-bold: dana-bold;
+  /* Fonts */
+
+  /* Colors */
+  --primary-color: #0074d9;
+  --on-primary-color: #fff;
+  --hover-primary-color: #0865d7;
+  --secondary-color: #b4d5fc;
+  --on-secondary-color: #000;
+  --hover-secondary-color: #8fc0fb;
+  --tertiary-color: #ddd;
+  --on-tertiary-color: #000;
+  --background-tertiary-color: #eee;
+  --error-color: #ff180c;
+  --on-error-color: #fff;
+  --hover-error-color: #f60c00;
+  /* Colors */
+
+  /* Spacing */
+  --pixel-5: 5px;
+  --pixel-10: 10px;
+  --pixel-15: 15px;
+  --pixel-25: 25px;
+  --pixel-30: 30px;
+  --pixel-35: 35px;
+  --pixel-40: 40px;
+  --pixel-45: 45px;
+  --pixel-50: 50px;
+  /* Spacing */
+}
+
