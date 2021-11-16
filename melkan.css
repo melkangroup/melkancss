@@ -506,6 +506,9 @@
   cursor: pointer;
   background-color: var(--primary-color);
   color: var(--on-primary-color);
+  border: none;
+  padding-left: var(--pixel-15);
+  padding-right: var(--pixel-15);
 }
 
 .primary-button:hover {
@@ -516,6 +519,9 @@
   cursor: pointer;
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
+  border: none;
+  padding-left: var(--pixel-15);
+  padding-right: var(--pixel-15);
 }
 
 .secondary-button:hover {
@@ -526,6 +532,9 @@
   cursor: pointer;
   background-color: var(--error-color);
   color: var(--on-error-color);
+  border: none;
+  padding-left: var(--pixel-15);
+  padding-right: var(--pixel-15);
 }
 
 .error-button:hover {
